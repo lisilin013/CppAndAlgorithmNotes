@@ -41,6 +41,8 @@ public:
         }
     }
 
+    NodeType *head() const { return head_->next; }
+
     bool isEmpty() const {
         return !head_->next;
     }
@@ -260,7 +262,6 @@ public:
         traversalFromEndToStartCore(head_->next);
         std::cout << std::endl;
     }
-
 
 private:
     void traversalFromEndToStartCore(NodeType *node) {

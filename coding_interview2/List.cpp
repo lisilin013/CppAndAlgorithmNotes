@@ -33,15 +33,12 @@ void PrintListNode(ListNode<int> *pNode) {
 }
 
 void PrintList(ListNode<int> *pHead) {
-    printf("PrintList starts.\n");
-
     ListNode<int> *pNode = pHead;
     while (pNode != nullptr) {
         printf("%d\t", pNode->data);
         pNode = pNode->next;
     }
-
-    printf("\nPrintList ends.\n");
+    printf("\n");
 }
 
 void DestroyList(ListNode<int> *pHead) {
