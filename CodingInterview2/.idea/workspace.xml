@@ -2,27 +2,34 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="CodingInterview" targetName="08_NextNodeInBinaryTree" />
-      <config projectName="CodingInterview" targetName="17_PrintOneToMaxOfNDigits" />
-      <config projectName="CodingInterview" targetName="12_StringPathInMatrix" />
-      <config projectName="CodingInterview" targetName="02_Singleton" />
-      <config projectName="CodingInterview" targetName="05_ReplaceSpaces" />
-      <config projectName="CodingInterview" targetName="Sort" />
-      <config projectName="CodingInterview" targetName="main" />
-      <config projectName="CodingInterview" targetName="03_DuplicateNumerInArray" />
-      <config projectName="CodingInterview" targetName="15_NumberOfOneInBinary" />
-      <config projectName="CodingInterview" targetName="13_RobotMove" />
-      <config projectName="CodingInterview" targetName="14_CuttingRope" />
-      <config projectName="CodingInterview" targetName="16_Power" />
       <config projectName="CodingInterview" targetName="11_MinNumberInRotateArray" />
+      <config projectName="CodingInterview" targetName="04_FindInPartialllySortedMatrix" />
       <config projectName="CodingInterview" targetName="01_AssignOperator" />
       <config projectName="CodingInterview" targetName="09_QueueWithTwoStacks" />
-      <config projectName="CodingInterview" targetName="07_ConstructBinaryTree" />
+      <config projectName="CodingInterview" targetName="05_ReplaceSpaces" />
       <config projectName="CodingInterview" targetName="06_PrintListFromTail" />
+      <config projectName="CodingInterview" targetName="BigNumber" />
+      <config projectName="CodingInterview" targetName="22_MidNodeInList" />
+      <config projectName="CodingInterview" targetName="21_RecorderArray" />
+      <config projectName="CodingInterview" targetName="Sort" />
+      <config projectName="CodingInterview" targetName="14_CuttingRope" />
+      <config projectName="CodingInterview" targetName="16_Power" />
+      <config projectName="CodingInterview" targetName="15_NumberOfOneInBinary" />
       <config projectName="CodingInterview" targetName="10_Fibonacci" />
-      <config projectName="CodingInterview" targetName="04_FindInPartialllySortedMatrix" />
+      <config projectName="CodingInterview" targetName="20_NumericStrings" />
+      <config projectName="CodingInterview" targetName="23_EntryNodeOfLoopInList" />
+      <config projectName="CodingInterview" targetName="07_ConstructBinaryTree" />
+      <config projectName="CodingInterview" targetName="19_RegularExpressionMatching" />
+      <config projectName="CodingInterview" targetName="13_RobotMove" />
       <config projectName="CodingInterview" targetName="09_StackWithTwoQueue" />
+      <config projectName="CodingInterview" targetName="02_Singleton" />
+      <config projectName="CodingInterview" targetName="08_NextNodeInBinaryTree" />
+      <config projectName="CodingInterview" targetName="main" />
+      <config projectName="CodingInterview" targetName="22_KthNodeFromEnd" />
+      <config projectName="CodingInterview" targetName="17_PrintOneToMaxOfNDigits" />
+      <config projectName="CodingInterview" targetName="03_DuplicateNumerInArray" />
       <config projectName="CodingInterview" targetName="18_DeleteNodeInList" />
+      <config projectName="CodingInterview" targetName="12_StringPathInMatrix" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -31,7 +38,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f8199d4-e1ec-469e-88b8-c94c0cde39ce" name="Default Changelist" comment="" />
+    <list default="true" id="3f8199d4-e1ec-469e-88b8-c94c0cde39ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_RegularExpressionMatching.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_NumericStrings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_RecorderArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22_KthNodeFromEnd.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22_MidNodeInList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_EntryNodeOfLoopInList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigNumber.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_PrintOneToMaxOfNDigits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/17_PrintOneToMaxOfNDigits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/List.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +66,50 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/23_EntryNodeOfLoopInList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2208">
+              <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
+              <folding>
+                <element signature="e#52#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/List.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#114#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/List.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="34" selection-start-line="34" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,6 +134,8 @@
       <find>cout</find>
       <find>endl</find>
       <find>index</find>
+      <find>FindKthToTail</find>
+      <find>ListNode</find>
     </findStrings>
     <replaceStrings>
       <replace>found</replace>
@@ -76,7 +143,12 @@
       <replace>BinaryTreeNode&lt;T&gt;</replace>
       <replace>c</replace>
       <replace>std::cout</replace>
+      <replace>FindKthNodeFromEnd</replace>
+      <replace>ListNode&lt;int&gt;</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,7 +165,6 @@
         <option value="$PROJECT_DIR$/05_ReplaceSpaces.cpp" />
         <option value="$PROJECT_DIR$/06_PrintListFromTail.cpp" />
         <option value="$PROJECT_DIR$/18_DeleteNodeInList.cpp" />
-        <option value="$PROJECT_DIR$/List.h" />
         <option value="$PROJECT_DIR$/07_ConstructBinaryTree.cpp" />
         <option value="$PROJECT_DIR$/BinaryTree.h" />
         <option value="$PROJECT_DIR$/08_NextNodeInBinaryTree.cpp" />
@@ -107,9 +178,19 @@
         <option value="$PROJECT_DIR$/12_StringPathInMatrix.cpp" />
         <option value="$PROJECT_DIR$/13_RobotMove.cpp" />
         <option value="$PROJECT_DIR$/14_CuttingRope.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/16_Power.cpp" />
         <option value="$PROJECT_DIR$/17_PrintOneToMaxOfNDigits.cpp" />
+        <option value="$PROJECT_DIR$/BigNumber.h" />
+        <option value="$PROJECT_DIR$/BigNumber.cpp" />
+        <option value="$PROJECT_DIR$/19_RegularExpressionMatching.cpp" />
+        <option value="$PROJECT_DIR$/20_NumericStrings.cpp" />
+        <option value="$PROJECT_DIR$/21_RecorderArray.cpp" />
+        <option value="$PROJECT_DIR$/22_KthNodeFromEnd.cpp" />
+        <option value="$PROJECT_DIR$/22_MidNodeInList.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/List.cpp" />
+        <option value="$PROJECT_DIR$/List.h" />
+        <option value="$PROJECT_DIR$/23_EntryNodeOfLoopInList.cpp" />
       </list>
     </option>
   </component>
@@ -120,18 +201,30 @@
     <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CodingInterview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingInterview2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CppAndAlgorithmNotes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../chenwen_ws/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -149,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.16_Power">
+  <component name="RunManager" selected="CMake Application.23_EntryNodeOfLoopInList">
     <configuration name="01_AssignOperator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="01_AssignOperator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="01_AssignOperator">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -245,6 +338,41 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="19_RegularExpressionMatching" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="19_RegularExpressionMatching" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="19_RegularExpressionMatching">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="20_NumericStrings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="20_NumericStrings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="20_NumericStrings">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="21_RecorderArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="21_RecorderArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="21_RecorderArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="22_KthNodeFromEnd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="22_KthNodeFromEnd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="22_KthNodeFromEnd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="22_MidNodeInList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="22_MidNodeInList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="22_MidNodeInList">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="23_EntryNodeOfLoopInList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="23_EntryNodeOfLoopInList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="23_EntryNodeOfLoopInList">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="BigNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="BigNumber">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CodingInterview" TARGET_NAME="Sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CodingInterview" RUN_TARGET_NAME="Sort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -275,8 +403,15 @@
       <item itemvalue="CMake Application.16_Power" />
       <item itemvalue="CMake Application.17_PrintOneToMaxOfNDigits" />
       <item itemvalue="CMake Application.18_DeleteNodeInList" />
-      <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.19_RegularExpressionMatching" />
+      <item itemvalue="CMake Application.20_NumericStrings" />
+      <item itemvalue="CMake Application.21_RecorderArray" />
+      <item itemvalue="CMake Application.22_KthNodeFromEnd" />
+      <item itemvalue="CMake Application.22_MidNodeInList" />
+      <item itemvalue="CMake Application.23_EntryNodeOfLoopInList" />
+      <item itemvalue="CMake Application.BigNumber" />
       <item itemvalue="CMake Application.Sort" />
+      <item itemvalue="CMake Application.main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -308,31 +443,36 @@
       <workItem from="1580683508960" duration="15728000" />
       <workItem from="1580715681298" duration="13079000" />
       <workItem from="1580739359113" duration="4760000" />
+      <workItem from="1580781042043" duration="2856000" />
+      <workItem from="1580957179541" duration="12766000" />
+      <workItem from="1580989726120" duration="941000" />
+      <workItem from="1581067112378" duration="6764000" />
+      <workItem from="1581074022442" duration="345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131458000" />
+    <option name="totallyTimeSpent" value="155130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496997" visible="true" weight="0.20586608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496997" visible="true" weight="0.21859436" />
       <window_info id="Structure" order="1" sideWeight="0.503003" side_tool="true" weight="0.19701162" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24643585" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33469388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3299389" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892057" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.299389" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.28392485" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,54 +484,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jh.cpp" />
-    <entry file="file://$PROJECT_DIR$/ss.h" />
-    <entry file="file://$PROJECT_DIR$/ss.cpp" />
-    <entry file="file:///usr/include/c++/5/bits/stl_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/unordered_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2004">
-          <caret line="575" column="19" selection-start-line="575" selection-start-column="19" selection-end-line="575" selection-end-column="19" />
-          <folding>
-            <element signature="e#3375#3506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/time.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="191" column="14" selection-start-line="191" selection-start-column="14" selection-end-line="191" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_heap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1074">
-          <caret line="243" column="16" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/unordered_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="666" column="14" selection-start-line="666" selection-start-column="14" selection-end-line="666" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="890" column="6" selection-start-line="890" selection-start-column="6" selection-end-line="890" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -427,7 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.cpp" />
     <entry file="file:///usr/include/c++/5/cassert">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -545,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="248" column="35" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="35" />
-          <folding>
-            <element signature="e#114#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_ConstructBinaryTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="994">
@@ -566,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="292" column="4" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_algobase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="457" column="25" lean-forward="true" selection-start-line="457" selection-start-column="25" selection-end-line="457" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -632,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18_DeleteNodeInList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12_StringPathInMatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -667,23 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_Power.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>
@@ -731,10 +781,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="739" column="4" selection-start-line="739" selection-start-column="4" selection-end-line="739" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="714" column="6" selection-start-line="714" selection-start-column="6" selection-end-line="714" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigNumber.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#124#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_Power.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_DeleteNodeInList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_NumericStrings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1389">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/17_PrintOneToMaxOfNDigits.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="24">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_RegularExpressionMatching.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21_RecorderArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <element signature="e#157#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22_KthNodeFromEnd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="79" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22_MidNodeInList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#114#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23_EntryNodeOfLoopInList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>

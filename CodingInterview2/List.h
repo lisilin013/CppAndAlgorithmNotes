@@ -16,7 +16,18 @@ struct ListNode {
     ListNode *next;
 };
 
+//-------------------------------
+// only for test algorithm
+//-------------------------------
+ListNode<int> *CreateListNode(int value);
+void ConnectListNodes(ListNode<int> *pCurrent, ListNode<int> *pNext);
+void DestroyList(ListNode<int> *pHead);
+void PrintListNode(ListNode<int> *pNode);
+void PrintList(ListNode<int> *pHead);
 
+//---------------------------------------
+// single list
+//---------------------------------------
 template<typename T>
 class SingleList {
 public:
