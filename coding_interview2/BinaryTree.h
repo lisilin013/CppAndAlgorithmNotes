@@ -14,7 +14,7 @@ namespace Algorithm{
 
 template<typename T>
 struct BinaryTreeNode {
-    explicit BinaryTreeNode(const T &d) : data(d), left(nullptr), right(nullptr), parent(nullptr) {}
+    explicit BinaryTreeNode(const T &d = 0) : data(d), left(nullptr), right(nullptr), parent(nullptr) {}
     T data;
     BinaryTreeNode<T> *left;
     BinaryTreeNode<T> *right;
@@ -27,49 +27,69 @@ struct BinaryTreeNode {
     }
 };
 
-/**
- * @brief parent-->left-->right
- */
-template <typename T>
-void TraversalPreOrder(BinaryTreeNode<T> *node) {
+
+template<typename T>
+void TraversalPreOrderCore(BinaryTreeNode<T> *node) {
     if (!node)
         return;
     std::cout << node->data << " ";
-    TraversalPreOrder(node->left);
-    TraversalPreOrder(node->right);
+    TraversalPreOrderCore(node->left);
+    TraversalPreOrderCore(node->right);
+}
+/**
+ * @brief parent-->left-->right
+ */
+template<typename T>
+void TraversalPreOrder(BinaryTreeNode<T> *node) {
+    std::cout << "traversal pre order" << std::endl;
+    TraversalPreOrderCore(node);
+    std::cout << std::endl;
 }
 
 /**
  * @brief left-->parent-->right
  */
-template <typename T>
-void TraversalInOrder(BinaryTreeNode<T> *node) {
+template<typename T>
+void TraversalInOrderCore(BinaryTreeNode<T> *node) {
     if (!node)
         return;
-    TraversalInOrder(node->left);
+    TraversalInOrderCore(node->left);
     std::cout << node->data << " ";
-    TraversalInOrder(node->right);
+    TraversalInOrderCore(node->right);
+}
+
+template<typename T>
+void TraversalInOrder(BinaryTreeNode<T> *node) {
+    std::cout << "traversal in order\n";
+    TraversalInOrderCore(node);
+    std::cout << std::endl;
 }
 
 
 /**
  * @brief left-->right-->parent
  */
-template <typename T>
-void TraversalPostOrder(BinaryTreeNode<T> *node) {
+template<typename T>
+void TraversalPostOrderCore(BinaryTreeNode<T> *node) {
     if (!node)
         return;
-    TraversalPostOrder(node->left);
-    TraversalPostOrder(node->right);
+    TraversalPostOrderCore(node->left);
+    TraversalPostOrderCore(node->right);
     std::cout << node->data << " ";
 }
 
+template<typename T>
+void TraversalPostOrder(BinaryTreeNode<T> *node) {
+    std::cout << "traversal post order\n";
+    TraversalPostOrderCore(node);
+    std::cout << std::endl;
+}
 /**
  * @brief free memory of a tree
  * left-->right-->parent
  * 传递引用是必要的，否则root本身内存释放会不对
  */
-template <typename T>
+template<typename T>
 void ReleaseTree(BinaryTreeNode<T> *&node) {
     if (!node)
         return;
@@ -100,6 +120,7 @@ public:
     using VisitNodeType = BinaryTreeVisitNode<T>;
 public:
     BinaryTree() : root_(nullptr), sz_(0) {}
+    explicit BinaryTree(const T &d) : root_(new NodeType(d)), sz_(0) {}
     ~BinaryTree() { releaseTree(root_); }
 
     void setRoot(NodeType *root) {
@@ -371,7 +392,7 @@ private:
         releaseTree(node->right);
 
         // delete a node
-        std::cout << "delete node " << node->data << std::endl;
+//        std::cout << "delete node " << node->data << std::endl;
         delete node;//释放内存使其变成了野指针
         node = nullptr;//这一步是必要的
     }
