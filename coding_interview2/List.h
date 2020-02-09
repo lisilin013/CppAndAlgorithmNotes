@@ -14,6 +14,7 @@ struct ListNode {
     ListNode() : next(nullptr) {}
     T data;
     ListNode *next;
+    ListNode *sibling;
 };
 
 //-------------------------------
