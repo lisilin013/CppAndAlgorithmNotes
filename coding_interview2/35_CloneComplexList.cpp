@@ -50,7 +50,7 @@ ComplexListNode *CreateNode(int nValue) {
  * 空间复杂度O(N)，时间复杂度O(N)
  * @return cloned
  */
-ComplexListNode *CloneComplexList_hash(ComplexListNode *head) {
+ComplexListNode *CloneComplexList_Hash(ComplexListNode *head) {
     if (!head)
         return nullptr;
 
@@ -90,6 +90,56 @@ ComplexListNode *CloneComplexList_hash(ComplexListNode *head) {
     return clone_node_head;
 }
 
+/**
+ * @brief O(1)空间 O(n) 时间
+ * @param head
+ * @return
+ */
+ComplexListNode *CloneComplexList_MergeAndSplit(ComplexListNode *head) {
+    // check
+    if (!head)
+        return nullptr;
+    // 1. clone the main nodes of list [merged]
+    ComplexListNode *node = head;
+    while (node) {
+        // tmp save next node
+        ComplexListNode *node_next = node->next;
+        // clone node and link these three nodes
+        ComplexListNode *clone_node = new ComplexListNode(node->data);
+        node->next = clone_node;
+        clone_node->next = node_next;
+        // move to next node
+        node = node_next;
+    }
+
+    // 2. connect N' siblings by reference the N siblings
+    node = head;
+    while (node) {
+        ComplexListNode *clone_node = node->next;
+        if (node->sibling) {
+            clone_node->sibling = node->sibling->next;
+        }
+        node = clone_node->next;
+    }
+
+    // 3. split the two lists
+    node = head;
+    ComplexListNode *clone_node_head = node->next;
+    while (node) {
+        ComplexListNode *clone_node = node->next;
+
+        // save next node of node
+        ComplexListNode *next_node = clone_node->next;
+        if (next_node) {
+            node->next = next_node;// link N list
+            clone_node->next = next_node->next;//link N' list
+        }
+
+        // update node to move to next node
+        node = next_node;
+    }
+    return clone_node_head;
+}
 
 // ====================测试代码====================
 void Test(const char *testName, ComplexListNode *pHead) {
@@ -99,7 +149,8 @@ void Test(const char *testName, ComplexListNode *pHead) {
     printf("The original list is:\n");
     PrintList(pHead);
 
-    ComplexListNode *pClonedHead = CloneComplexList_hash(pHead);
+//    ComplexListNode *pClonedHead = CloneComplexList_Hash(pHead);
+    ComplexListNode *pClonedHead = CloneComplexList_MergeAndSplit(pHead);
 
     printf("The cloned list is:\n");
     PrintList(pClonedHead);
